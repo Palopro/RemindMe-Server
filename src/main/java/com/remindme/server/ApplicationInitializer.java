@@ -1,6 +1,7 @@
 package com.remindme.server;
 
 import com.remindme.server.config.WebConfig;
+import com.remindme.server.repository.RemindRepository;
 import org.springframework.web.WebApplicationInitializer;
 import org.springframework.web.context.ContextLoaderListener;
 import org.springframework.web.context.support.AnnotationConfigWebApplicationContext;
